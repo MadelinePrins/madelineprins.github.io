@@ -1,0 +1,15 @@
+.button{
+	-fx-background-color: rgb(211,211,211);
+}
+
+.button:hover{
+    -fx-background-color: rgb(192, 192, 192);
+}
+
+.buttonBar{
+	-fx-background-color: rgb(105,105,105);
+}
+
+.combo-box {
+    -fx-pref-width: 150;
+}
