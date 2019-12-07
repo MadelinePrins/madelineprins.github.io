@@ -1,0 +1,50 @@
+<!--homeIndex.html homepage code -->
+<!--@authors Madeline Prins and Eva Grench-->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Home Page </title>
+  </head>
+  <!--link to css file-->
+  <link rel="stylesheet" href="static/crimeCSS.css">
+  <body>
+    <!--Navigation Bar for page -->
+    <ul>
+      <li> <a class = "navbar" href = "index.html"> Home Page </a> </li>
+      <li> <a href = "exploreData.html"> Explore Data </a> </li>
+      <li> <a href = "locationStats.html"> Location Statistics </a> </li>
+    </ul>
+    <!--end navigation bar-->
+
+    <!--headers-->
+    <h1 class = "MainHeading"> Chicago Crime Records </h1>
+    <h2 class = "PageExplanation"> A collection of crime data for Chicago from 2001 to the present </h2>
+    <img  class="HomeImg" src = 'static/Chicago-Neighborhoods-Map.jpg'alt = "77 Chicago Suburbs" width="400"height="500" />
+
+    <!--paragraph explaining website with built in links to other pages-->
+    <p class = "SiteExplanation">
+      Chicago Crime Records is a collection of data related to crime incidents
+      reported through the years 2001-2018 throughout the 77 Community Areas of Chicago,
+      Illinois. The data set contains information such as date, location, type of crime.
+      On our <a href="exploreData.html">Explore Data </a> page, you can search for crimes
+      with several filter options. Additionally, on our <a href="locationStats.html">
+      Location Stats </a> page, you can take a look at how the crime rate has changed
+      in recent years, in a specific community area. Our data was accessed from data.gov. </p>
+      
+      <!--link to data.gov (our data source)-->
+      <form class "datasourcebtn">
+        <input type="button" class="datasourcebtn" value="Data Source" onclick="window.location.href='https://catalog.data.gov/dataset/crimes-2001-to-present-398a4'" />
+      </form>
+      <!--date source button stylings-->
+      <style>
+      input[type="button"]{
+          background-color:#b94646;
+          color: white;
+          width: 140px;
+          height: 50px;
+          font-size: 1.3em;
+      }
+      </style>
+  </body>
+</html>

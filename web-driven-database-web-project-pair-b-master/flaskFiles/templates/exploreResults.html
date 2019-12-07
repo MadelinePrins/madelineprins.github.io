@@ -1,0 +1,51 @@
+<!--exploreResults.html code -->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Explore Results </title>
+    <!-- Displays a button that allows the user to go back to the search page -->
+    <button><a href = "exploreData.html"> Try Again </a></button>
+    <style>
+      button{
+        background-color: #ccffe6;
+        font-size: 1.2em;
+        height: 50px;
+        width: 150px;
+      }
+    </style>
+  </head>
+  <!--link to css file-->
+  <link rel="stylesheet" href="static/crimeCSS.css">
+  <body>
+    <!-- Displays each crime in a table where each attribute of the crime
+         is in its own cell. -->
+    <table border = 1>
+      <tr>
+        <!-- Table headers -->
+        <th>Type</th>
+        <th>Crime Description</th>
+        <th>Setting</th>
+        <th>City Block</th>
+        <th>Year</th>
+        <th>Community Area</th>
+        <th>Arrest Result</th>
+        <th>Domestic Crime</th>
+      </tr>
+      <!-- Loop through all of the crimes in dictionary format and put each value in a new cell. -->
+      {% for crime in result %}
+        <tr>
+          <td> {{ crime.crimeType }} </td>
+          <td> {{ crime.crimeDescription }} </td>
+          <td> {{ crime.crimeSetting }} </td>
+          <td> {{ crime.block }} </td>
+          <td> {{ crime.crimeDate }} </td>
+          <td> {{ crime.communityAreaNumber }} </td>
+          <td> {{ crime.arrestResult }} </td>
+          <td> {{ crime.domesticCrime }} </td>
+        </tr>
+      {% endfor %}
+    </table>
+
+  </body>
+</html>

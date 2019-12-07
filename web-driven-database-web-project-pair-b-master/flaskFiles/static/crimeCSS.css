@@ -1,0 +1,89 @@
+/* crimeCSS.css */
+/* @authors Madeline Prins and Eva Grench */
+
+<div>
+  body{
+    background-color: #F5F5F5;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    } /*Palatino font type*/
+
+    /*Home page styling*/
+    h1.MainHeading{
+      position: relative;
+      top: 0%;
+      left: 2%;
+      text-align: left;
+      padding-bottom: 0%;
+      font-size: 2.5em;
+    }
+    h2.PageExplanation{
+      position: relative;
+      top: 1%;
+      left: 2%; #changed to 2 from 3
+      font-size: 1.875;
+    }
+    img.HomeImg{
+      position: relative;
+      float: right;
+      right: 6%;
+      top: 5%;
+      width: 30%;
+      height: 60%;
+      border: 2px solid #1c3463;
+    }
+    p.SiteExplanation{
+      position: relative;
+      float:left;
+      top: 10%;
+      width: 50%;
+      left: 25px;
+      font-size: 1.5em; /*changed to em*/
+      color: #1c3463;
+    }
+    input.datasourcebtn{
+      position: absolute;
+      left: 2%;
+      top: 90%;
+    }
+    input.datasourcebtn:hover {
+    box-shadow: 0 12px 16px 0
+    rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    /*End homepage stlying*/
+
+    img.numImg {
+      position: absolute;
+      border: 1px solid #ddd;
+      top:15rem;
+      height: 60%;
+      width:30%;
+      left: 45rem;
+    }
+
+    /*nav bar*/
+    ul{
+      background-color: #1c3463;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      position: static;
+      top:0;
+      right: 50;
+    }
+    li a{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px; /*room around the text on buttons*/
+    }
+    li{ /*makes nav bar horizontal*/
+      float: left;
+    }
+    li a:hover{ /*changes button color when you hover*/
+      background-color: #006699
+    }
+
+  </div>
