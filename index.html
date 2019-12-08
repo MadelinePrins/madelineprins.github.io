@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<meta charset= "UTF-8"> <!--define character set -->
+<!--make site work on all devices and resolutions-->
+<meta name = "viewport" content="width=device-width, initial-scale=1">
+<!--link CSS style sheet that we're designing-->
+<link rel="stylesheet" href = "MJStyleSheet.css">
+<body>
+
+	<!--Navigation-->
+	<!--nav element defines container of navigation links -->
+	<div id="nav">
+		<ul> <!--unordered list of links-->
+			<li><a href="#Home Highlights" class = "MJHomeBar"> Home </a></li>
+			<li><a href="#Film Reels" class = "MJHomeBar"> Film Reels </a></li>
+			<li><a href="#Photography Series" class = "MJHomeBar"> Photography Series </a></li>
+			<li><a href="#Contact" class = "MJHomeBar"> Contact</a></li>
+		</ul>
+	</div>
+	<!--End Navigation-->
+
+	<!--Responsive Image Gallery-->
+	<div class="homeImageGallery">
+		<div class="media">
+		<div class="hoverLayer">
+			<p> Test Image </p> <!--Text accompaniment-->
+		</div>
+		<img src="dupl.jpg"/> <!--image source-->
+		</div>
+
+		<div class="media">
+		<div class="hoverLayer">
+			<p> Test Image 2</p>
+		</div>
+		<img src= "hiltonHead.JPG">
+		</div>
+	</div>
+
+	<script>
+		window.onscroll = function(){scrollFunction()};
+
+		function scrollFunction(){
+			if (document.body.scrollTop > 80 ||
+			document.documentElement.scrollTop > 80) {
+				document.getElementById("nav").style.padding = "30px 10px";
+ 			} else {
+   				document.getElementById("nav").style.padding = "80px 10px";
+ 			}
+		}
+</script>
+			}
+		}
+	</script>
+
+
+</body>
+</html>
