@@ -54,7 +54,7 @@ body{
 
 .media {
 	width: 900px;
-	height: 600px;
+	height: auto;
 	float: left;
 	overflow: hidden;
 	position: relative;
@@ -68,7 +68,7 @@ body{
 .media img {
 	height: auto;
 	max-width: 100%;
-	width: 500px; !important
+	width: 900px; !important
 
 }
 
