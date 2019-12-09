@@ -127,7 +127,8 @@ p {
 /******* END IMAGE GALLERY STYLING ********/
 
 #projectPageTitles p {
-	
+	text-align: center;
+	font-size: 50px; !important
 }
 
 
