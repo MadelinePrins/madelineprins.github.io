@@ -130,7 +130,7 @@ p {
 	text-align: center;
 	font-size: 50px; !important
 	padding-left: 10px;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Inconsolata', monospace; !important
 	
 }
 
