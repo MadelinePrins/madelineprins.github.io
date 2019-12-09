@@ -91,7 +91,7 @@ body{
 /*Image Text on opaque hover layer*/
 p {
 	font-family: 'Inconsolata', monospace;
-	text-agign: center;
+	text-align: center;
 	font-size: 15px;
 	letter-spacing: 1px;
 }
@@ -125,3 +125,10 @@ p {
 
 
 /******* END IMAGE GALLERY STYLING ********/
+
+#projectPageTitles p {
+	
+}
+
+
+
