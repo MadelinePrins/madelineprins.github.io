@@ -135,5 +135,47 @@ p {
 	
 }
 
+/***** Private Naive Bayes Datastructure page *****/
+
+#datastruct p1 {
+	text-align: center;
+	font-size: 30px; !important
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Inconsolata', monospace; !important
+}
+
+/*Button stylings for download link */
+#datastruct li {
+	font-family: 'Inconsolata', monospace; !important
+	font-size: 15px;
+}
+
+#datastruct a {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#datastruct a:hover {
+  background-color: #555;
+}
+
+#datastruct a:active {
+  background-color: black;
+}
+
+#datastruct a:visited {
+  background-color: #ccc;
+}
+
+#datastruct img {
+	float: center;
+	width: 50%; !important
+	height: auto; !important
+}
 
 
