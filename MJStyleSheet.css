@@ -96,7 +96,6 @@ p {
 	font-size: 30px;
 	letter-spacing: 1px;
 }
-
 .media:hover .hoverLayer {
 	opacity: 0.8;
 	width: 90%;
@@ -106,13 +105,11 @@ p {
 		transition: all 0.9s ease;
 	}
 }
-
 @media (max-width: 800px){
 	body{
 		transform: scale(0.6);
 	}
 }
-
 @media (max-width: 600px) {
 	.homeImageGallery {
 		display: block;
@@ -121,23 +118,19 @@ p {
 		}
 	}
 }
-
-
-
-
 /******* END IMAGE GALLERY STYLING ********/
 
+/******* PRE-PASSWORD PROTECTED PAGE FOR NAIVE BAYES CODE ********/
 #projectPageTitles p {
 	text-align: center;
 	font-size: 50px; !important
 	padding-left: 10px;
 	font-family: 'Inconsolata', monospace; !important
-	
 }
 
-/***** Private Naive Bayes Datastructure page *****/
+/******* PRIVATE PROTECTED PAGE FOR NAIVE BAYES ********/
 
-#datastruct p1 {
+#datastruct p1 { /*text descriptions*/
 	text-align: center;
 	font-size: 30px; !important
 	padding-top: 10px;
@@ -151,31 +144,49 @@ p {
 	font-family: 'Inconsolata', monospace; !important
 	font-size: 15px;
 }
-
 #datastruct a {
-  background-color: red;
-  color: white;
-  padding: 1em 1.5em;
-  text-decoration: none;
-  text-transform: uppercase;
+	background-color: #99ffff;
+	color: black;
+	padding: 1em 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
 }
-
 #datastruct a:hover {
-  background-color: #555;
+	background-color: #c4d4d4; /*blue gray hover color*/
 }
-
 #datastruct a:active {
-  background-color: black;
+	background-color: black; 
 }
-
 #datastruct a:visited {
-  background-color: #ccc;
+	background-color: #ccc;
 }
 
+p1 img{
+	vertical-align: middle;
+}
+
+/*model design image*/
 #datastruct img {
 	float: center;
 	width: 50%; !important
 	height: auto; !important
 }
 
+/*javascript button for entering password protected page*/
+.passwordButton {
+	background-color: #99ffff; /*blue button background*/
+	color: black; /*text color*/
+	padding: 1em 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.passwordButton :hover{
+	background-color: #c4d4d4; /*blue gray hover color*/
+}
+.passwordButton :active{
+	background-color: black; 
+}
+.passwordButton :visited{
+	background-color: #ccc; 
+}
 
