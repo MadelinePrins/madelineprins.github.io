@@ -177,20 +177,20 @@ p {
 }
 
 /*javascript button for entering password protected page*/
-.passwordButton {
+.passwordButton a {
 	background-color: #99ffff; /*blue button background*/
 	color: black; /*text color*/
 	padding: 1em 1.5em;
 	text-decoration: none;
 	text-transform: uppercase;
 }
-.passwordButton :hover{
+.passwordButton a:hover{
 	background-color: #c4d4d4; /*blue gray hover color*/
 }
-.passwordButton :active{
+.passwordButton a:active{
 	background-color: black; 
 }
-.passwordButton :visited{
+.passwordButton a:visited{
 	background-color: #ccc; 
 }
 
