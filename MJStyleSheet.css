@@ -118,24 +118,34 @@ p {
 		}
 	}
 }
-/******* END IMAGE GALLERY STYLING ********/
+/******* END SECTION ********/
 
-/******* PRE-PASSWORD PROTECTED PAGE FOR NAIVE BAYES CODE ********/
+
+/******* PRE-PASSWORD PROTECTED PAGE ********/
 #projectPageTitles p {
 	text-align: center;
 	font-size: 50px; !important
 	padding-left: 10px;
 	font-family: 'Inconsolata', monospace; !important
 }
+/*javascript button for entering password protected page*/
+.passwordButton {
+	background-color: #99ffff; /*blue button background*/
+	color: black; /*text color*/
+	padding: 1em 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Inconsolata', monospace; !important
+	font-size: 25px; !important
+}
+
+/******* END SECTION ********/
+
 
 /******* PRIVATE PROTECTED PAGE FOR NAIVE BAYES ********/
 
-#datastruct{
-	display: inline-block; !important
-}
-
-#datastruct p1 { /*text descriptions*/
-	float: left;
+#datastruct p { /*text descriptions*/
+	text-align: center; !important
 	font-size: 30px; !important
 	padding-top: 10px;
 	padding-left: 10px;
@@ -148,6 +158,13 @@ p {
 #datastruct li {
 	font-family: 'Inconsolata', monospace; !important
 	font-size: 15px;
+	padding-bottom: 20px ;
+	float: middle;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
 }
 #datastruct a {
 	background-color: #99ffff;
@@ -155,6 +172,12 @@ p {
 	padding: 1em 1.5em;
 	text-decoration: none;
 	text-transform: uppercase;
+	float: middle;
+	text-align: center;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 #datastruct a:hover {
 	background-color: #c4d4d4; /*blue gray hover color*/
@@ -167,29 +190,64 @@ p {
 }
 
 /*bayes model image*/
-#datastruct img {
-	float: left;
+#datastructimg img{
 	width: 50%; !important
 	height: auto; !important
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block; !important
+}
+/******* END SECTION ********/
+
+
+/******* CONTACT PAGE  ********/
+
+/*keeping these paragraph stylings separate so I can change their layouts later*/
+#p1 {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 
-/*javascript button for entering password protected page*/
-.passwordButton {
-	background-color: #99ffff; /*blue button background*/
-	color: black; /*text color*/
-	padding: 1em 1.5em;
-	text-decoration: none;
-	text-transform: uppercase;
+#p2 #p3 #p4{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 
-.passwordButton :active{
-	background-color: black; 
+#p2 #p3 #p4 a{
+
 }
-.passwordButton :visited{
-	background-color: #ccc; 
-}
+
+
+
+
+
+
+/******* END SECTION ********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
