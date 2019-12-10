@@ -140,6 +140,7 @@ p {
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
+	display: block; !important
 	font-family: 'Inconsolata', monospace; !important
 }
 
@@ -177,20 +178,18 @@ p {
 }
 
 /*javascript button for entering password protected page*/
-.passwordButton a {
+.passwordButton {
 	background-color: #99ffff; /*blue button background*/
 	color: black; /*text color*/
 	padding: 1em 1.5em;
 	text-decoration: none;
 	text-transform: uppercase;
 }
-.passwordButton a:hover{
-	background-color: #c4d4d4; /*blue gray hover color*/
-}
-.passwordButton a:active{
+
+.passwordButton :active{
 	background-color: black; 
 }
-.passwordButton a:visited{
+.passwordButton :visited{
 	background-color: #ccc; 
 }
 
