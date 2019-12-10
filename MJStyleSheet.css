@@ -130,6 +130,10 @@ p {
 
 /******* PRIVATE PROTECTED PAGE FOR NAIVE BAYES ********/
 
+#datastruct{
+	display: inline-block; !important
+}
+
 #datastruct p1 { /*text descriptions*/
 	float: left;
 	font-size: 30px; !important
@@ -159,10 +163,6 @@ p {
 }
 #datastruct a:visited {
 	background-color: #ccc;
-}
-
-p1 img{
-	vertical-align: middle;
 }
 
 /*bayes model image*/
