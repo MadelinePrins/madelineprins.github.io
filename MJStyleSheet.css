@@ -7,19 +7,21 @@
 	float: left;
 	margin: 0;
 	min-width: 1000px;
-	max-width: 100%;
 	padding: 4px; /*padding around the navbar options*/
 	font-family:"Didot, serif", Didot, serif;
 	font-size: 2.5vw; /*vw type allows font resizing when window size changes*/
 }
+
 #nav ul{
 	list-style-type: none;
 	margin: 0;
-	padding: 20px;
+	padding: 30px;
 	height: 30px; /*control if text is centered or more towards the top*/
-
 }
+
 #nav li{
+
+	max-height: 20px;
 	float: left; /* space the nav options out horizontally*/
 }
 #nav li a{
@@ -30,20 +32,7 @@
 }
 /*****End Navigation bar styling**/
 
-/***** HOME PAGE BACKGROUND STYLING ********/
-body{
-	/*set the background of the home page to a gif*/
-	/*replace this file name with the name of a gif of something else*/
-	background-image: url('backgroundTest.gif');
-	background-size: cover;
-	background-repeat: repeat-y;
-
-
-}
-
 /********* IMAGE GALLERY STYLING ********/
-
-
 
 .homeImageGallery {
 	display: flex;
