@@ -67,7 +67,7 @@
 	justify-content: center;
 	align-items: center;
 	width: 10px;
-	height: 90%;
+	height: 99%;
 	background: #FFF;
 	color: #151E3F;
 	transition: all 0.9s ease;
@@ -86,7 +86,7 @@ p {
 }
 .media:hover .hoverLayer {
 	opacity: 0.8;
-	width: 90%;
+	width: 99%;
 	transition: all 0.5s ease;
 	p{
 		transform: scale(1);
