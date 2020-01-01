@@ -83,6 +83,11 @@ p {
 	text-align: center;
 	font-size: 30px;
 	letter-spacing: 1px;
+	text-align: center;
+	position: absolute;
+	display: inline-block;
+	right: 10%;
+	left: 10%;
 }
 .media:hover .hoverLayer {
 	opacity: 0.8;
