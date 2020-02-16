@@ -20,7 +20,7 @@
 	<!--Title text-->
 	
 	<div id= "projectPageTitles">
-		<p> Modified Bayes Classifier For Binary Sensitive/Classification Attributes </p>
+		<p> Two Bayes Algorithm For Binary Sensitive/Classification Attributes </p>
 
 	</div>
 	
@@ -29,7 +29,7 @@
 	</div>
 
 	<div id = "projectDescription">
-		<p> The Modified Bayes Algorithm is built off of the Naive Bayes Classifier foundation. It computes a preliminary baseline discrimination score based on a single iteration of the naive bayes classifier. It then enters a while loop in which it modifies the counts and conditional probabilities for particular classifications and sensitive attributes very slightly to make it more 'fair'. It then reclassifies the data and recomputes the new discrimination score. The loop continues until the discrimination score is minimized to a particular threshold. </p>
+		<p> The Two Bayes Algorithm is built off of the foundations of both the Naive Bayes Classifier and the Modified Bayes algorithm. The distinction comes from a separation of dataFrame objects originally by the binary sensitive attribute in order to train two separate models. The classifier when iterating through the data set then uses and modifies the probabilities from the model corresponding to the particular data instance's sensitive attribute value.  </p>
 	</div>
 
 
