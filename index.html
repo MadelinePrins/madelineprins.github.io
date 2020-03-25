@@ -1,122 +1,201 @@
-<!DOCTYPE html>
-<html>
-<meta charset= "UTF-8"> <!--define character set -->
-<!--make site work on all devices and resolutions-->
-<meta name = "viewport" content="width=device-width, initial-scale=1">
-<!--link CSS style sheet that we're designing-->
-<link rel="stylesheet" href = "MJStyleSheet.css">
-<body>
-
-	<!--Navigation-->
-	<!--nav element defines container of navigation links -->
-	<div id="nav">
-		<ul> <!--unordered list of links-->
-			<li><a href="index.html" class = "MJHomeBar"> Home </a></li>
-			<li><a href="contact.html" class = "MJHomeBar"> Contact</a></li>
-		</ul>
-	</div>
-	<!--End Navigation-->
-
-	<!--Responsive Image Gallery of Projects -->
-
-	<div class="homeImageGallery">
-		<div class="media">
-		<div class="hoverLayer">
-			<p> Naive Bayes Classifier </p>
-			<a href="NaiveBayesAccess.html">
-			<img src="whiteBackground.png" alt = "white fade" > </a> <!--Text accompaniment-->
-		</div>	
-			<img src="bModel.png"/> <!--image source-->
-		</div>
-
-		<div class="media">
-		<div class="hoverLayer">
-			<p> Modified Bayes Algorithm </p>
-			<a href="modifiedBayesAccess.html">
-			<img src="whiteBackground.png" alt = "white fade" > </a> <!--Text accompaniment-->
-		</div>	
-			<img src="modified.png"/> <!--image source-->
-		</div>
-
-		<div class="media">
-		<div class="hoverLayer">
-			<p> Two Bayes Algorithm </p>
-			<a href="twoBayesAccess.html">
-			<img src="whiteBackground.png" alt = "white fade" > </a> <!--Text accompaniment-->
-		</div>	
-			<img src="two-bayes.png"/> <!--image source-->
-		</div>	
-
-		<div class="media">
-		<div class="hoverLayer">
-			<p> Lora Packet Store and Forward Script </p>
-			<a href="storeForward.html">
-			<img src="whiteBackground.png" alt = "white fade" > </a> <!--Text accompaniment-->
-		</div>	
-			<img src="mqtt.png"/> <!--image source-->
-		</div>
-
-		<div class="media">
-		<div class="hoverLayer">
-			<p> Log To CSV Convertor </p>
-			<a href="logCsv.html">
-			<img src="whiteBackground.png" alt = "white fade" > </a> <!--Text accompaniment-->
-		</div>	
-			<img src="csv.png"/> <!--image source-->
-		</div>
-
-		<div class="media">
-		<div class="hoverLayer">
-			<p> Turing Machine Simulation </p>
-			<a href="turingmachine.html">
-			<img src="whiteBackground.png" alt = "white fade" > </a> <!--Text accompaniment-->
-		</div>	
-			<img src="tmExample.png"/> <!--image source-->
-		</div>
-
-		<div class="media">
-		<div class="hoverLayer">
-			<p> Sites I've Worked On </p>
-			<a href="sites.html">
-			<img src="whiteBackground.png" alt = "white fade" > </a> <!--Text accompaniment-->
-		</div>	
-			<img src="SAINCGRAPHIC.jpg"/> <!--image source-->
-		</div>
-
-		<div class="media">
-		<div class="hoverLayer">
-			<p> Scheme Interpreter </p>
-			<a href="SchemeAccess.html">
-			<img src="whiteBackground.png" alt = "white fade" > </a> <!--Text accompaniment-->
-		</div>	
-			<img src="drrkt.png"/> <!--image source-->
-		</div>
-
-		<div class="media">
-		<div class="hoverLayer">
-			<p> Python Regex Sample </p>
-			<a href="PythonRegex.html">
-			<img src="whiteBackground.png" alt = "white fade" > </a> <!--Text accompaniment-->
-		</div>	
-			<img src="regular-expression.gif"/> <!--image source-->
-		</div>	
-
-	</div>
-		
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Madeline Prins GitHub IO </title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
 	
-	<!--script for responsive image gallery -->
-	<!--have to be careful with changing the size of the nav bar on scroll-->
-	<script>
-		window.onscroll = function(){scrollFunction()};
+	
+	<!-- Font -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	
+	<link href="common-css/bootstrap.css" rel="stylesheet">
+	
+	<link href="common-css/ionicons.css" rel="stylesheet">
+	
+	<link href="common-css/fluidbox.min.css" rel="stylesheet">
+	
+	<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
+	
+	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
+	
+</head>
+<body>
+	
+	
+	
+	<!-- portfolio header with photo-->
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-lg-2"></div>
+				<div class="col-md-10 col-lg-8">
+					<div class="intro">
+						<div class="profile-img"><img src="images/madeline-prins-headshot.jpg" alt=""></div>
+						<h2><b>Madeline Jade Prins</b></h2>
+						<h4 class="font-yellow">Software / Web Design </h4>
+						<ul class="information margin-tb-30">
+							<li><b>Email: </b> prinsmaddy@gmail.com</li>
+						</ul>
+						<ul class="social-icons">
+							<li><a href="https://github.com/MadelinePrins"><i class="ion-social-github"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/madeline-prins"><i class="ion-social-linkedin"></i></a></li>
+							<li><a href="https://www.instagram.com/madeline_prins/"><i class="ion-social-instagram-outline"></i></a></li>
+							<li><a href="https://madelinejadeprins.wordpress.com/"><i class="ion-ios-videocam"></i></a></li>
+						</ul>
+					</div><!-- intro -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- intro-section -->
+	
+ <section class="about-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>ABOUT ME!</b></h3>
+						<h6 class="font-lite-black"><b>Madeline Jade Prins</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<!--<img src="images/madeline-headshot-2.jpg" alt="">-->
+					<p class="margin-b-50"> <br> Hi! My name is Madeline and I am a 21 year old programmer from California. I have a double Bachelor's Degree in Computer Science and Film. I've worked on projects in <strong>IoT</strong> (Internet of Things),<b> Machine Learning algorithmic discrimination mitigation, Virtual Reality, and Web Design</b>. I'm well versed in Python, Java, C++, C, Scheme, HTML/CSS, and more! My other interests include graphic arts, NHL, and film/photography (which is why all of the photography you'll see on this site is mine!). <br><br> Take a look at some of the projects I've worked on below!</p>
+					
+					</div><!-- row -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- about-section -->
 
-		function scrollFunction(){
-			if (document.body.scrollTop > 80 ||
-			document.documentElement.scrollTop > 80) {
-				document.getElementById("nav").style.padding = "0px 10px";
- 			} else {
-   				document.getElementById("nav").style.padding = "0px 10px";
- 			}
-		}
-	</script>
+	
+	
+	<section class="experience-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>PROJECTS</b></h3>
+						<h6 class="font-lite-black"><b>Madeline Jade Prins</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+
+					<div class="experience margin-b-50">
+						<h4><b> LoRa Packet Store & Forward Script </b></h4>
+						<h5 class="font-yellow"><b>IoT - Internet of Things</b></h5>
+						<p class="font-semi-white margin-tb-30">This script is designed to minimize LoRa packet dataloss due to ethernet disconnectivity. </p>
+						<a class="downlad-btn" href="https://drive.google.com/file/d/1oMvcAzL-SeV0FCrVukyKSSD06MKJx83w/view?usp=sharing">Download The Python Script Here<br></a>
+				
+					</div><!-- experience -->
+				
+					<div class="experience margin-b-50">
+						<h4><b> Naive Bayes Classifier </b></h4>
+						<h5 class="font-yellow"><b>MACHINE LEARNING</b></h5>
+						<p class="font-semi-white margin-tb-30">The Naive Bayes Classifier contains two major functions: train() and classify(). The train function takes in a dataset and fills a complex model datastructure with a series of probabilities involving the 'sensitive attribute' and 'classification variable' which will be used during classification. The classify function is run on a separate dataset. Given the trained model it calculates the possible classifications based on the probabilities and appends a new classification column to the dataset.  </p>
+						<a class="downlad-btn" href="#">Download The Naive Bayes Code Here</a> <br>
+
+						<a class="download-btn" href="http://www.cs.carleton.edu/cs_comps/1920/fairness/final-results/index.html"> Visit the project site to learn more</a>
+				
+					</div><!-- experience -->
+					
+					<div class="experience margin-b-50">
+						<h4><b>Modified Bayes Classifer For Binary Sensitive/Classification</b></h4>
+						<h5 class="font-yellow"><b>MACHING LEARNING</b></h5>
+						<p class="font-semi-white margin-tb-30"> The Modified Bayes Algorithm is built off of the Naive Bayes Classifier foundation. It computes a preliminary baseline discrimination score based on a single iteration of the naive bayes classifier. It then enters a while loop in which it modifies the counts and conditional probabilities for particular classifications and sensitive attributes very slightly to make it more 'fair'. It then reclassifies the data and recomputes the new discrimination score. The loop continues until the discrimination score is minimized to a particular threshold. </p>
+						
+						<a class="downlad-btn" href="https://drive.google.com/file/d/1J_4rBHVjvzI3qVXWuf2hBjPSd8lZZH_h/view?usp=sharing">Download The Modified Bayes Code Here</a> <br>
+						<a class="download-btn" href="http://www.cs.carleton.edu/cs_comps/1920/fairness/final-results/index.html"> Visit the project site to learn more</a>
+					</div><!-- experience -->
+
+					<div class="experience margin-b-50">
+						<h4><b>Two Bayes Algorithm For Binary Sensitive/Classification</b></h4>
+						<h5 class="font-yellow"><b>MACHING LEARNING</b></h5>
+						<p class="font-semi-white margin-tb-30"> The Two Bayes Algorithm is built off of the foundations of both the Naive Bayes Classifier and the Modified Bayes algorithm. The distinction comes from a separation of dataFrame objects originally by the binary sensitive attribute in order to train two separate models. The classifier when iterating through the data set then uses and modifies the probabilities from the model corresponding to the particular data instance's sensitive attribute value. </p>
+						
+						<a class="downlad-btn" href="https://drive.google.com/file/d/12WQuxrnYv4mC2tsIxCuOisxSirvxm7C4/view?usp=sharing">Download The Two Bayes Code Here</a> <br>
+						<a class="download-btn" href="http://www.cs.carleton.edu/cs_comps/1920/fairness/final-results/index.html"> Visit the project site to learn more</a>
+					</div><!-- experience -->
+
+					<div class="experience margin-b-50">
+						<h4><b>Log To CSV Convertor </b></h4>
+						<h5 class="font-yellow"><b>UTILITY</b></h5>
+						<p class="font-semi-white margin-tb-30"> This Java program parses log files and exports the data to a neatly organized CSV file. It also provides examples of how to potentially break up/search data. </p>
+						
+						<a class="downlad-btn" href="https://drive.google.com/file/d/1QC8GOCyluvSGhIUnWlyJSJNjSq1DZ4xr/view?usp=sharing">Download The Java Code Here</a> <br>
+					</div><!-- experience -->
+
+					<div class="experience margin-b-50">
+						<h4><b>Scheme Tokenizer, Parser, and Interpreter</b></h4>
+						<h5 class="font-yellow"><b>INTERPRETERS</b></h5>
+						<p class="font-semi-white margin-tb-30"> This program takes Scheme code as input breaks it down into its component tokens, and executes the functionalities associated with the code. </p>
+						
+						<a class="downlad-btn" href="https://drive.google.com/file/d/13tUUkZmfFTOrK_TgZ17FgxlXj0W6YDg7/view?usp=sharing">Download The Scheme Interpreter Here</a> <br>
+					</div><!-- experience -->
+
+
+					<div class="experience margin-b-50">
+						<h4><b>Python RegEx Sample </b></h4>
+						<h5 class="font-yellow"><b>UTILITY</b></h5>
+						<p class="font-semi-white margin-tb-30"> This sample Python program demonstrates how to use Python regular expressions to filter out data from a string input such as a text file. In this example it parses the file for emails.</p>
+						
+						<a class="downlad-btn" href="https://drive.google.com/file/d/1yc1YnhF6nnhfLRL5GUhtEq221kzAB0bV/view?usp=sharing">Download The Python Regular Expression Sample Code Here</a> <br>
+					</div><!-- experience -->
+
+
+					<div class="experience margin-b-50">
+						<h4><b>Websites I've Worked On </b></h4>
+						<h5 class="font-yellow"><b>WEB DESIGN</b></h5>
+						<p class="font-semi-white margin-tb-30"> This sample Python program demonstrates how to use Python regular expressions to filter out data from a string input such as a text file. In this example it parses the file for emails.</p>
+						
+						<a class="downlad-btn" href="http://www.cs.carleton.edu/cs_comps/1920/fairness/final-results/index.html">• Algorithmic Bias Research </a> <br>
+						<a class="downlad-btn" href="https://sainc.regency.global/"> • SA Inc South Africa Television Series </a> <br>
+						<a class="downlad-btn" href="https://www.shalina.com/"> • South African Healthcare</a> <br>
+					</div><!-- experience -->
+
+					
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- experience-section -->
+	
+	<section class="counter-section" id="counter">
+		<div class="container">
+			<div class="row">
+				<h1 class="title"><b>For Inquiries/More Information</b></h1>
+				<h3 class ="desc"><b>prinsmaddy@gmail.com</b></h3>
+
+			</div>
+		</div><!-- container-->
+    </section><!-- counter-section-->
+	
+	<footer>
+		<p class="copyright"></p>
+	</footer>
+	
+	
+	<!-- SCRIPTS -->
+	
+	<script src="common-js/jquery-3.2.1.min.js"></script>
+	
+	<script src="common-js/tether.min.js"></script>
+	
+	<script src="common-js/bootstrap.js"></script>
+	
+	<script src="common-js/isotope.pkgd.min.js"></script>
+	
+	<script src="common-js/jquery.waypoints.min.js"></script>
+	
+	<script src="common-js/progressbar.min.js"></script>
+	
+	<script src="common-js/jquery.fluidbox.min.js"></script>
+	
+	<script src="common-js/scripts.js"></script>
+	
 </body>
 </html>
